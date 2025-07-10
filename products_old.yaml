@@ -2460,6 +2460,15 @@
       billQuantityMultiplier: 0
 - name: Yello Rai
   hName: पिला राई
+  dispName: Yellow Rai
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2721,6 +2730,16 @@
 - name: Bal Sepa
   hName: बाल सेपा
   tName: Suva 500gm Samip
+  dispName: Bal Sepa / Suva
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2730,6 +2749,16 @@
       billQuantityMultiplier: 0
 - name: Black Till Extra
   hName: काला तिल Extra
+  dispName: Black Till Extra
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2749,6 +2778,18 @@
 - name: Till loose
   hName: तिल
   tName: Seasam Seeds Kamal
+  dispName: Till Loose / Seasam Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2908,6 +2949,19 @@
         billQuantityMultiplier: 30
 - name: Jeera 1kg
   hName: जीरा 1Kg
+  dispName: Jeera 1Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 4 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3159,6 +3213,18 @@
 - name: B Souf
   hName: बड़ी सौफ
   tName: Souff
+  dispName: Badi Souf / Fennel Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3729,6 +3795,16 @@
 - name: Hira Hing Navjeevan
   hName: हीरा हिंग
   tName: Navjeevan Kabuli Khada K No.1 500 Gm
+  dispName: Hira Hing / Kabuli Khada Hing 500g
+  qtyOptions:
+    - 0.5 Kg
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -3949,6 +4025,18 @@
       billQuantityMultiplier: 24
 - name: Pasta
   hName: पास्ता
+  dispName: Pasta
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -3974,6 +4062,14 @@
         billQuantityMultiplier: 25
 - name: Pasta Masala
   hName: पास्ता मसाला
+  dispName: Pasta Masala
+  qtyOptions:
+    - 0.5 pkt
+    - 1 pkt 
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 1 Box     
   unit:
     unit: pkt
     crushIndex: 3
@@ -3999,6 +4095,15 @@
 - name: Maggie Masala
   hName: मैगी मसाला
   tName: Maggi Masala Magic Sachet Rs.5
+  dispName: Maggi Masala Magic Rs.5
+  qtyOptions:
+    - 0.5 pkt
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 1 Box 
   tMul: 120
   unit:
     unit: pkt
@@ -4045,6 +4150,16 @@
         billQuantityMultiplier: 25
 - name: Peanut
   hName: खारा शेंडाना
+  dispName: Roasted Salted Peanut
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 3
@@ -4065,6 +4180,14 @@
 - name: Papad Sudarshan
   hName: सुदर्शन पापड़
   tName: Sudarshan Papad
+  dispName: Sudarshan Papad
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 4
@@ -4100,6 +4223,15 @@
       billQuantityMultiplier: 0
 - name: Tikka Masala
   hName: टिक्का मसाला
+  dispName: Tikka Masala
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 10 pkt
+    - 1 Bag
   unit:
     unit: pkt
     crushIndex: 1
@@ -4109,6 +4241,16 @@
       billQuantityMultiplier: 0
 - name: Chivada Masala
   hName: चिवड़ा मसाला
+  dispName: Rambandhu Chivada Masala
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -4159,6 +4301,15 @@
 - name: Kokam
   hName: कोकम
   tName: Kokum Syrup 1Ltr
+  dispName: Kokum Syrup 1 Ltr
+  qtyOptions:
+    - 1 Ltr
+    - 2 Ltr
+    - 3 Ltr
+    - 4 Ltr
+    - 5 Ltr
+    - 1 Box
+    - 2 Box
   unit:
     unit: pcs
     crushIndex: 4
@@ -4671,6 +4822,19 @@
       billQuantityMultiplier: 0
 - name: Ravalgaon Sugar
   tName: Sugar in Big Crystal
+  dispName: Khadi Sakhar Barik / Ravalgaon
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -4679,6 +4843,17 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 50
 - name: Stone Sugar
+  dispName: Jad Khadi Sakhar / Stone Sugar
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -4688,6 +4863,18 @@
       billQuantityMultiplier: 0
 - name: Daliya
   tName: Puffed Gram
+  dispName: Puffed Gram / Daliya
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 20 Kg
+    - 1 Bag
+    - 2 Bag   
   unit:
     unit: Kg
     crushIndex: 2
@@ -4697,6 +4884,18 @@
       billQuantityMultiplier: 40     
 - name: Makhana
   tName: Dry Makhana
+  dispName: Dry Makhana
+  qtyOptions:
+    - 0.25 Kg
+    - 0.5 Kg
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   unit:
     unit: Kg
     crushIndex: 4
@@ -4775,6 +4974,16 @@
       billQuantityMultiplier: 25
 - name: Soda 10
   tName: ISHASHAKTI SODA 70GM
+  dispName: Soda Rs.10
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 1 Box
+    - 2 Box
+    - 3 Box
   unit:
     unit: pkt
     crushIndex: 2
@@ -4793,6 +5002,18 @@
       billQuantityMultiplier: 10
 - name: Popcorn
   tName: Popcorn Maize Corn
+  dispName: Popcorn Maize Corn
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -5031,6 +5252,17 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
 - name: Black Salt S
+  dispName: Kala Namak Khada
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -5039,6 +5271,17 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
 - name: Black Salt P
+  dispName: Kala Namak Powder
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
   tName: Black Salt
   unit:
     unit: Kg
@@ -5049,6 +5292,17 @@
       billQuantityMultiplier: 25
 - name: Senda Namak
   tName: Rock Salt
+  dispName: Senda Namak / Rock Salt
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -5150,6 +5404,17 @@
       billQuantityMultiplier: 0
 - name: Papad Masala
   tName: Rb Papad Masala 100 G
+  dispName: Rambandhu Papad Masala 100 G
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg 
+    - 4 Kg
+    - 5 Kg
+    - 1 Pack(6 Kg)
+    - 1 Bag(24 Kg)
+    - 2 Bag(24 Kg)
+    - 3 Bag(24 Kg)
   unit:
     unit: Kg
     crushIndex: 1
@@ -5235,6 +5500,19 @@
         billQuantityMultiplier: 0
 - name: Ghee 200
   tName: Gow Premium Ghee 200Ml
+  dispName: Gowardhan Ghee 200Ml
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 3 pcs
+    - 4 pcs
+    - 5 pcs
+    - 6 pcs
+    - 7 pcs
+    - 8 pcs
+    - 9 pcs
+    - 10 pcs
+    - 1 Box
   unit:
     unit: pcs
     crushIndex: 5
@@ -5473,6 +5751,17 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
 - name: Nagli Disco
+  dispName: Nagli Disco Papad
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: Kg
     crushIndex: 5
@@ -5481,6 +5770,15 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
 - name: Sevai
+  dispName: Sevai
+  qtyOptions:
+    - 0.5 Dozen
+    - 1 Dozen
+    - 2 Dozen
+    - 3 Dozen
+    - 4 Dozen
+    - 1 Box
+    - 2 Box
   unit:
     unit: pcs
     crushIndex: 5
@@ -5570,6 +5868,16 @@
       billQuantityMultiplier: 0
 - name: Sunflower Seeds
   tName: Sunflower Seeds
+  dispName: Sunflower Seeds / Surajmukhi Beej
+  qtyOptions:
+    - 0.5 Kg
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag ( 12.5 Kg )
+    - 1 Box ( 25 Kg )
   unit:
     unit: Kg
     crushIndex: 1
@@ -5578,6 +5886,16 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
 - name: Pumkin Seeds
+  dispName: Pumkin Seeds / Dangar ke beej
+  qtyOptions:
+    - 0.5 Kg
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag ( 12.5 Kg )
+    - 1 Box ( 25 Kg )
   unit:
     unit: Kg
     crushIndex: 1
