@@ -35,17 +35,6 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: Biryani 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Biryani 15 Lucky
   hName: बिरयानी 15 लकी
   tName: Lucky Biryani Masala Rs 15 (Pcs)
@@ -82,17 +71,6 @@
       unit: pkt
       otherChargesMultiplier: 0
       billQuantityMultiplier: 60
-- name: Meat 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Chicken 10 Lucky
   hName: चिकन 10 लकी
   tName: Lucky Chicken masala 10 (Pcs)
@@ -115,7 +93,7 @@
   hName: बिरयानी 25
   tName: Shahi Biryani 25 Gms Everest
   category: Everest
-  dispName: Everest Shahi Biryani 25 Gms
+  dispName: Shahi Biryani 25 Gms Everest
   qtyOptions:
     - 10 pcs
     - 20 pcs
@@ -130,33 +108,16 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
-- name: Chicken Biryani 25
-  hName: बिरयानी 25
-  tName: Chicken Biryani Masala 50gms
-  category: Everest
-  mQty: 10
-  unit:
-    unit: pcs
-    crushIndex: 5
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
-- name: Tandoori Chicken 50
-  hName: तंदूरी चिकन 50
-  tName: Tandoori Chicken Masala 50 Gms Everest
-  category: Everest
-  mQty: 10
-  unit:
-    unit: pcs
-    crushIndex: 5
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 120
 - name: Jaljeera 100
   hName: जलजीरा 100
   tName: Jaljira Powder 100gm Everest
+  dispName: Jaljira Powder 100g Everest
+  qtyOptions:
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 50 pcs
+    - 1 Box
   category: Everest
   mQty: 10
   unit:
@@ -169,6 +130,13 @@
 - name: Jaljeera 50
   hName: जलजीरा 100
   tName: Jaljeera 50gm Everest
+  dispName: Jaljeera Powder 50g Everest
+  qtyOptions:
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 50 pcs
+    - 1 Box
   category: Everest
   mQty: 10
   unit:
@@ -200,21 +168,21 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 120
-- name: Chicken Biryani 50
-  hName: Chicken बिरयानी 50
-  tName: Chicken Biryani Masala 50gms
-  category: Everest
-  mQty: 10
-  unit:
-    unit: pcs
-    crushIndex: 5
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 120
 - name: Biryani 200
   hName: बिरयानी 200
   tName: Shahi Biryani 200 Gms Everest
+  dispName: Shahi Biryani 200 Gms Everest
+  qtyOptions:
+    - 0.2 Kg
+    - 0.4 Kg
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 5
   unit:
@@ -227,6 +195,16 @@
 - name: Pav Bhaji 10
   hName: पाव भाजी 10
   tName: Pav Bhaji 12gms Everest
+  dispName: Pav Bhaji Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 30
   unit:
@@ -236,17 +214,6 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: Pav Bhaji 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Pav Bhaji 50
   hName: पाव भाजी 50
   tName: Pav Bhaji 50 Gm Everest
@@ -272,6 +239,18 @@
 - name: Pav Bhaji 200
   hName: पाव भाजी 200
   tName: Pav Bhaji Masala 200 Gms Everest
+  dispName: Pav Bhaji Masala 200g Everest
+  qtyOptions:
+    - 0.2 Kg
+    - 0.4 Kg
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 5
   unit:
@@ -284,6 +263,16 @@
 - name: Paneer 10
   tName: Shahi Paneer Masala 12gms Everest
   hName: पनीर 10
+  dispName: Shahi Paneer Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 30
   unit:
@@ -293,20 +282,20 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: Paneer 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Paneer 50
   hName: पनीर 50
   tName: Shahi Paneer Masala 50 Gm Everest
+  dispName: Shahi Paneer Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
+    - 2 Box
   category: Everest
   mQty: 10
   unit:
@@ -330,18 +319,6 @@
     - 10 Hang
     - 1 Box
     - 2 Box
-  tMul: 60
-  unit:
-    unit: Hanger
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 20
-- name: Desi Meat 5
-  hName: मटन मसाला 5
-  tName: Desi Meat Masala 7gm
-  category: Everest
   tMul: 60
   unit:
     unit: Hanger
@@ -375,6 +352,18 @@
 - name: Meat 10
   hName: मटन मसाला 10
   tName: Meat Masala 12gm Everest
+  dispName: Meat Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   category: Everest
   tMul: 30
   unit:
@@ -384,18 +373,6 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: K Methi 10
-  hName: मटन मसाला 10
-  tName: Kasuri Methi 10gm Everest
-  category: Everest
-  tMul: 30
-  unit:
-    unit: Hanger
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
 - name: Meat 200
   hName: मटन मसाला 200
   tName: Meat Masala 200gm Everest
@@ -421,6 +398,16 @@
 - name: Meat 500
   hName: मटन मसाला 500
   tName: Meat Masala 500 Gm Everest
+  dispName: Meat Masala 500 gm Everest
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 2
   unit:
@@ -433,6 +420,12 @@
 - name: Aachar GG
   hName: आचार GG
   tName: Gajgouri Mango Pickle 5Kg
+  dispName: Aachar 5Kg Gajgouri ( Mango )
+  qtyOptions:
+    - 1 Jar
+    - 2 Jar
+    - 1 Box
+    - 2 Box
   category: Other
   unit:
     unit: Jar
@@ -443,6 +436,17 @@
       billQuantityMultiplier: 4
 - name: Pav Bhaji 500
   tName: Pav Bhaji 500gm Everest
+  dispName: Pav Bhaji 500gm Everest
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   tMul: 2
   category: Everest
   hName: पाव भाजी 500
@@ -500,6 +504,16 @@
 - name: Chicken 10
   hName: चिकन 10
   tName: Chicken Masala 12gm
+  dispName: Chicken Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 30
   unit:
@@ -509,17 +523,6 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: Chicken 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Chicken 200
   hName: चिकन 200
   tName: Chicken Masala 200 Gms
@@ -545,6 +548,16 @@
 - name: Chicken 500
   hName: चिकन 500
   tName: Chicken Masala 500 Gm
+  dispName: Chicken Masala 500gm Everest
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 2
   unit:
@@ -576,20 +589,17 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: K King 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Cumin 10
   hName: जीरा पाउडर 10
   tName: Cumin Hanger
+  dispName: Jeera Powder Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
   category: Everest
   tMul: 30
   unit:
@@ -625,6 +635,16 @@
 - name: K King 200
   hName: किचन किंग 200
   tName: Kitchen King Masala 200 Gms Everest
+  dispName: Kitchen King Masala 200g Everest
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 5
   unit:
@@ -637,6 +657,16 @@
 - name: K King 500
   hName: किचन किंग 500
   tName: Kitchen King Masala 500 Gms Everest
+  dispName: Kitchen King Masala 500g Everest
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 2
   unit:
@@ -649,6 +679,16 @@
 - name: Sambhar 10
   hName: सांभर 10
   tName: Sambhar Masala 12gms Everest
+  dispName: Sambhar Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 30
   unit:
@@ -661,6 +701,17 @@
 - name: Sambhar 50
   hName: सांभर 50
   tName: Sambar Masala 50 Gm Everest
+  dispName: Sambhar Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
+    - 2 Box
   category: Everest
   mQty: 10
   unit:
@@ -673,6 +724,16 @@
 - name: Sambhar 200
   hName: सांभर 200
   tName: Sambhar Masala 200 Gms Everest
+  dispName: Sambhar Masala 200g Everest
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 5
   unit:
@@ -685,6 +746,16 @@
 - name: Chole 10
   hName: छोले 10
   tName: Chhole Masala 12gms
+  dispName: Chhole Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 30
   unit:
@@ -694,17 +765,6 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: Chole 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Chole 50
   hName: छोले 50
   tName: Chhole Masala 50 Gm
@@ -731,6 +791,16 @@
 - name: Chole 200
   hName: छोले 200
   tName: Chhole Masala 200 Gms
+  dispName: Chhole Masala 200g Everest
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   category: Everest
   tMul: 5
   unit:
@@ -762,20 +832,16 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20
-- name: Garam 10 Box
-  hName: बिरयानी 10
-  tName: Everest Masala 10 Gm Box
-  category: Everest
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 240
 - name: Garam 100
   hName: गरम 100
   tName: Garam Masala 100gm Everest
+  dispName: Garam Masala 100g Everest
+  qtyOptions:
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 50 pcs
+    - 1 Box
   category: Everest
   mQty: 10
   unit:
@@ -788,6 +854,16 @@
 - name: Garam 50
   hName: गरम 50
   tName: Garam Masala 50gm Everest
+  dispName: Garam Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 1 Box
+    - 2 Box
   category: Everest
   mQty: 10
   unit:
@@ -800,6 +876,15 @@
 - name: Special Garam 200
   hName: स्पेशल गरम 200
   tName: Garam Masala 200 Gms Everest
+  dispName: Special Garam Masala 200g Everest
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   category: Everest
   tMul: 5
   unit:
@@ -834,6 +919,15 @@
 - name: Pani Puri 10
   hName: पानी पूरी 10
   tName: Panipuri Masala 15 Gms Everest
+  dispName: Panipuri Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
   category: Everest
   tMul: 30  
   unit:
@@ -846,6 +940,16 @@
 - name: Pani Puri 50
   hName: पानी पूरी 50
   tName: Panipuri Masala 50 Gm Everest
+  dispName: Panipuri Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   category: Everest
   mQty: 10
   unit:
@@ -858,6 +962,15 @@
 - name: Chat 10
   hName: चाट मसाला 10
   tName: CHAT MASALA 12GMS
+  dispName: Chat Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
   category: Everest
   tMul: 30
   unit:
@@ -870,6 +983,16 @@
 - name: Chat 50
   hName: चाट मसाला 50
   tName: Chat Masala 50 Gm
+  dispName: Chat Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   category: Everest
   mQty: 10
   unit:
@@ -883,6 +1006,15 @@
   hName: चाट मसाला 200
   tName: Chat Masala 200 Gms
   category: Everest
+  dispName: Chat Masala 200g Everest
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   tMul: 5
   unit:
     unit: Kg
@@ -895,6 +1027,16 @@
   hName: जीरा पाउडर 50
   tName: Cumin 50 Gm
   category: Everest
+  dispName: Jeera Powder 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -907,6 +1049,16 @@
   hName: सब्जी 10
   tName: Subji Masala 12gm Everest
   category: Everest
+  dispName: Subji Masala Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   tMul: 30
   unit:
     unit: Hanger
@@ -919,6 +1071,16 @@
   hName: सब्जी 50
   tName: Subji Masala 50 Gm Everest
   category: Everest
+  dispName: Sabji Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -931,6 +1093,16 @@
   hName: सब्जी 200
   tName: Subji Masala 200 Gm Everest
   category: Everest
+  dispName: Sabji Masala 200g Everest
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   tMul: 5
   unit:
     unit: Kg
@@ -943,6 +1115,12 @@
   hName: जलजीरा 200 सुहाना
   tName: Jaljira 200 Gms
   category: Masale
+  dispName: Jaljira Masala 200g Suhana
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 1 Box
+    - 2 Box
   tMul: 5
   unit:
     unit: Kg
@@ -955,6 +1133,16 @@
   hName: चाय मसाला 50
   tName: Tea Masala 50 Gm Everest
   category: Everest
+  dispName: Tea Masala 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -967,6 +1155,16 @@
   hName: चाय मसाला 25
   tName: Tea Masala 25 Gm Everest
   category: Everest
+  dispName: Tea Masala 25g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -979,6 +1177,16 @@
   hName: चिकन बिरयानी 10
   tName: Chicken Biryani 8gm
   category: Everest
+  dispName: Chicken Biryani Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   tMul: 30
   unit:
     unit: Hanger
@@ -991,6 +1199,16 @@
   hName: जीरा पाउडर 50 एवरेस्ट
   tName: Cumin 50 Gm
   category: Everest
+  dispName: Jeera Powder 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -1003,6 +1221,16 @@
   hName: अमचूर 50 एवरेस्ट
   tName: Amchur Powder 50 Gm
   category: Everest
+  dispName: Amchur Powder 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -1015,6 +1243,16 @@
   hName: काली मिरी पाउडर 50
   tName: Black Pepper 50 Gm
   category: Everest
+  dispName: Black Pepper 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -1027,6 +1265,16 @@
   hName: सुंथ 50
   tName: Dry Ginger 50 Gms
   category: Everest
+  dispName: Sunth Powder 50g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 40 pcs
+    - 50 pcs
+    - 60 pcs
+    - 1 Box
   mQty: 10
   unit:
     unit: pcs
@@ -1039,6 +1287,16 @@
   hName: तंदूरी चिकन 500
   tName: Tandoori Chicken 500 Gms Everest
   category: Everest
+  dispName: Tandoori Chicken Masala 500g Everest
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   tMul: 2
   unit:
     unit: Kg
@@ -1072,6 +1330,16 @@
   hName: हल्दी पाउडर 10
   tName: Turmeric Powder 20 Gm Hang
   category: Everest
+  dispName: Haldi Powder Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   tMul: 30
   unit:
     unit: Hanger
@@ -1084,6 +1352,14 @@
   hName: कश्मीरी 100
   tName: Kashmirilal Chilli 100 Gm Everest
   category: Everest
+  dispName: Kashmirilal Chilli Powder 100g Everest
+  qtyOptions:
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 50 pcs
+    - 1 Box
+    - 2 Box
   mQty: 10
   unit:
     unit: pcs
@@ -1119,6 +1395,16 @@
   hName: धना पाउडर 10
   tName: Coriander 20gms Hang Everest
   category: Everest
+  dispName: Dhana Powder Rs. 10 Everest
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   tMul: 30
   unit:
     unit: Hanger
@@ -1131,6 +1417,16 @@
   hName: कसूरी मेथी 500
   tName: Kasuri Methi 500 Gms Everest
   category: Everest
+  dispName: Kasuri Methi 500g Everest
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 6 Kg
+    - 1 Box
+    - 2 Box
   tMul: 2
   unit:
     unit: Kg
@@ -1166,6 +1462,14 @@
   hName: कसूरी मेथी 100
   tName: Vinora Kasoori Methi 100 Gm
   category: Masale
+  dispName: Kasoori Methi 100g Everest
+  qtyOptions:
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 50 pcs
+    - 1 Box
   tMul: 0.1
   mQty: 10
   unit:
@@ -1175,9 +1479,16 @@
       unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 20 
-      
 - name: Mirchi 10
   hName: मिर्ची पाउडर 10
+  dispName: Mirchi Powder Rs. 10
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
   unit:
     unit: Hanger
     crushIndex: 3
@@ -1189,6 +1500,16 @@
     - extItem: Everest
       category: Everest
       tName: Tikhalal 20 Gms Hang
+      dispName: Mirchi Powder Rs. 10 Tikhalal Everest
+      qtyOptions:
+        - 1 Hang
+        - 2 Hang
+        - 3 Hang
+        - 4 Hang
+        - 5 Hang
+        - 10 Hang
+        - 1 Box
+        - 2 Box
       tMul: 30
       extP2pUnit:
         unit: Box
@@ -1196,6 +1517,15 @@
         billQuantityMultiplier: 16
     - extItem: Ambari
       tName: AM CH PWD 12G
+      dispName: Mirchi Powder Rs. 10 Ambari
+      qtyOptions:
+        - 1 pkt
+        - 2 pkt
+        - 3 pkt
+        - 4 pkt
+        - 5 pkt
+        - 1 Bag
+        - 2 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -1203,6 +1533,15 @@
 - name: Mirchi 5 Ambari
   hName: मिर्ची पाउडर 5 अंबारी
   tName: AM CH PWD 6G Rs.5 PCH
+  dispName: Mirchi Powder Rs. 5 Ambari
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: pkt
@@ -1277,6 +1616,15 @@
 - name: Kanda Lasun 10
   hName: कंडा लासुन 10
   tName: AM KLM 20G
+  dispName: Kanda Lasun Masala Rs. 10 Ambari
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: pkt
@@ -1288,6 +1636,15 @@
 - name: Kanda Lasun 5
   hName: कंडा लासुन 5
   tName: AM KLM 10G
+  dispName: Kanda Lasun Masala Rs. 5 Ambari
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: pkt
@@ -1296,16 +1653,6 @@
       unit: Bag
       otherChargesMultiplier: 0
       billQuantityMultiplier: 10
-- name: Suhana 10
-  hName: सुहाना 10
-  unit:
-    category: Masale
-    unit: pcs
-    crushIndex: 5
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 120
 - name: Kaju
   hName: काजू
   tName: Cashew
@@ -1336,12 +1683,6 @@
         unit: Tin
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
-    - extItem: Spl 260
-      tName: Cashew
-      extP2pUnit:
-        unit: Tin
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 10
     - extItem: WMix
       dispName: Kaju Mix Grade
       tName: Cashew
@@ -1351,12 +1692,14 @@
         billQuantityMultiplier: 10
     - extItem: 240
       tName: Cashew
+      dispName: Kaju  W240
       extP2pUnit:
         unit: Tin
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Bold
       tName: Cashew
+      dispName: Kaju Bold Size
       extP2pUnit:
         unit: Tin
         otherChargesMultiplier: 0
@@ -1365,6 +1708,15 @@
   hName: काजू 250
   tName: Cashew 250gms
   category: Dry Fruits
+  dispName: Kaju 250g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 5
@@ -1376,6 +1728,15 @@
   hName: बादाम 250
   tName: Almond Kernals 250g
   category: Dry Fruits
+  dispName: Badam 250g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 1
@@ -1389,7 +1750,6 @@
   category: Dry Fruits
   dispName: Tukda Kaju
   qtyOptions:
-    - 500 gm
     - 1 Kg
     - 2 Kg
     - 3 Kg
@@ -1434,12 +1794,6 @@
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
-    - extItem: IND
-      tName: Badam
-      extP2pUnit:
-        unit: Bag
-        billQuantityMultiplier: 0
-        otherChargesMultiplier: 0
     - extItem: Bold
       dispName: Badam Extra Size ( Bold )
       tName: Almond Kernels
@@ -1451,6 +1805,14 @@
   hName: बादाम कतरी
   tName: Badam Katri
   category: Dry Fruits
+  dispName: Badak Katri
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 10 Kg
   unit:
     unit: Kg
     crushIndex: 5
@@ -1473,6 +1835,14 @@
   hName: पिस्ता कतरी
   tName : Pista Katri
   category: Dry Fruits
+  dispName: Pista Katri
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 10 Kg
   unit:
     unit: Kg
     crushIndex: 5
@@ -1504,6 +1874,7 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Export
+      dispName: Yellow Kharik Regular Size ( Export )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -1544,6 +1915,7 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Export
+      dispName: Black Kharik Regular Size ( Export )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -1563,7 +1935,17 @@
 - name: Tukda Kharik
   hName: टुकड़ा खरीक
   tName: Kharak
+  dispName: Tukda Kharik
   category: Dry Fruits
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -1574,6 +1956,14 @@
 - name: Kiwi
   hName: कीवी
   tName: Kiwi Dehyderated
+  dispName: Kiwi Dry 200g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
   category: Dry Fruits
   unit:
     unit: Kg
@@ -1629,6 +2019,16 @@
   tName : Indian Dry Grapes
   category: Dry Fruits
   dispName: Kismish 1Kg Packing
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
+    - 5 Box
   unit:
     unit: Kg
     crushIndex: 3
@@ -1650,6 +2050,17 @@
 - name: Kismish 250
   hName: किशमिश 250
   tName : Indian Dry Grapes
+  dispName: Kismish 250g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
+    - 5 Box
   category: Dry Fruits
   unit:
     unit: Kg
@@ -1662,6 +2073,17 @@
   hName: किशमिश 100
   tName : Indian Dry Grapes
   category: Dry Fruits
+  dispName: Kismish 100g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
+    - 5 Box
   unit:
     unit: Kg
     crushIndex: 5
@@ -1714,6 +2136,16 @@
         billQuantityMultiplier: 0
 - name: Charoli
   hName: चारोली
+  dispName: Charoli
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 20 Kg
   unit:
     category: Dry Fruits
     unit: Kg
@@ -1724,11 +2156,13 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Regular
+      dispName: Charoli Regular Size
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: Bold
+      dispName: Charoli Bold Size
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -1756,12 +2190,14 @@
     extItems:
     - extItem: Regular
       tName: Dry Apricot Regular
+      dispName: Jardalu Regular
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: Extra
       tName: Dry Apricot Bold
+      dispName: Jardalu Extra
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -1769,6 +2205,16 @@
 - name: Magaj 1Kg
   hName: मगज 1Kg
   tName: Magajtari Seeds
+  dispName: Magaj 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   category: Dry Fruits
   unit:
     unit: Kg
@@ -1779,21 +2225,19 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: AM
+      dispName: Magaj 1 Kg Regular
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
     - extItem: AM Premium
+      dispName: Magaj 1 Kg Extra
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
-    - extItem: RB Blue
-      extP2pUnit:
-        unit: Box
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 25
     - extItem: Small
+      dispName: Magaj 1 Kg Small
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -1801,6 +2245,17 @@
 - name: Magaj Loose
   hName: मगज 
   tName: Magajtari Seeds
+  dispName: Magaj Loose
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 5 Bag
   category: Dry Fruits
   unit:
     unit: Kg
@@ -1844,6 +2299,7 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: FS
+      dispName: Black Kismish Regular
       tName: Black Raisins FS
       extP2pUnit:
         unit: Box
@@ -1851,18 +2307,21 @@
         billQuantityMultiplier: 10
     - extItem: Seedless
       tName: Black Raisins Seedless
+      dispName: Black Kismish Seedless
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: True Nuts
       tName: Black Raisins True Nuts
+      dispName: Black Kismish True Nuts
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 6
     - extItem: Carnival
       tName: Black Raisins Carnival
+      dispName: Black Kismish Extra
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -1870,6 +2329,16 @@
 - name: Akhrot 250
   hName: अखरोट 250
   category: Dry Fruits
+  dispName: Akhrot Magaj 250g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
   unit:
     unit: Kg
     crushIndex: 5
@@ -1879,6 +2348,7 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Titbit
+      dispName: Akhrot Magaj 4 pcs ( Titbit )
       tName: Walnut Kernels Titbit
       extP2pUnit:
         unit: Box
@@ -1888,6 +2358,26 @@
   hName: अखरोट मगज
   tName: Walnut Kernal
   dispName: Akhrot Magaj Loose
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 1 Box
+    - 2 Box
+    - 5 Box
+  unit:
+    unit: Kg
+    crushIndex: 4
+    p2pUnit:
+      unit: Box
+      otherChargesMultiplier: 0
+      billQuantityMultiplier: 0
+- name: Akhrot whole
+  hName: अखरोट साबुत
+  category: Dry Fruits
+  tName: Dry Fruits Walnut
+  dispName: Akhrot Whole
   qtyOptions:
     - 500 gm
     - 1 Kg
@@ -1903,20 +2393,18 @@
     p2pUnit:
       unit: Box
       otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
-- name: Akhrot whole
-  hName: अखरोट साबुत
-  category: Dry Fruits
-  tName: Dry Fruits Walnut
-  unit:
-    unit: Kg
-    crushIndex: 4
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
       billQuantityMultiplier: 10
 - name: Anjeer 250
   hName: अंजीर 250
+  dispName: Anjeer 250g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   category: Dry Fruits
   unit:
     unit: Kg
@@ -1927,6 +2415,7 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Jasmine
+      dispName: Anjeer 250g Regular ( Jasmine )
       tName: Dry Figs Jasmine
       extP2pUnit:
         unit: Box
@@ -1934,11 +2423,13 @@
         billQuantityMultiplier: 10
     - extItem: Tulip
       tName: Dry Figs Tulip
+      dispName: Anjeer 250g Extra ( Tulip )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Vishaka
+      dispName: Anjeer 250g Regular ( Vishaka )
       tName: Dry Figs Vishaka
       extP2pUnit:
         unit: Box
@@ -1990,6 +2481,14 @@
   hName: नमकीन पिस्ता 1Kg
   category: Dry Fruits
   tName: Dry Fruits Pista 1Kg
+  dispName: Salted Pista Jumbo 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 4
@@ -2001,6 +2500,16 @@
   category: Dry Fruits
   hName: हरा पिस्ता
   tName: Pista
+  dispName: Green Pista
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 4
@@ -2013,7 +2522,6 @@
   category: Dry Fruits
   dispName: Kimiya 500gm
   qtyOptions:
-    - 500 gm
     - 1 Kg
     - 2 Kg
     - 3 Kg
@@ -2039,20 +2547,20 @@
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 6
-- name: Muzafati
-  category: Dry Fruits
-  tName: Muzafati Dates
-  tMul: 0.4
-  unit:
-    unit: pcs
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 15
 - name: Pouch Khajur
   category: Dry Fruits
   hName: खजूर
+  dispName: Black Khajur 500g ( Pouch )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: Kg
     crushIndex: 3
@@ -2062,29 +2570,47 @@
       billQuantityMultiplier: 7
     extItems:
     - extItem: Black Crown
+      dispName: Black Khajur 500g Regular ( Pouch )
+      qtyOptions:
+        - 1 Box
+        - 2 Box
+        - 3 Box
+        - 4 Box
+        - 5 Box
+        - 10 Box
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 7
     - extItem: Black Crown 250g
+      dispName: Black Khajur 250g Regular ( Pouch )
+      qtyOptions:
+        - 1 Box
+        - 2 Box
+        - 3 Box
+        - 4 Box
+        - 5 Box
+        - 10 Box
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 4
     - extItem: Emrates Dates
       tName: Date Crown Prem Emirates Dates
+      dispName: Black Khajur Date Crown Emirates
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 8
     - extItem: Khenaizi
       tName: Date Crown Khenaizi
+      dispName: Black Khajur Date Crown Khenaizi
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 8
     - extItem: Fard
-      tName: Date Crown Fard
+      dispName: Black Khajur Date Crown Fard
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -2093,6 +2619,15 @@
   hName: खजूर 10Kg
   tName: Dates Khajur
   category: Dry Fruits
+  dispName: Red Khajur Loose 10 Kg
+  qtyOptions:
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
+    - 10 Bag
+    - 15 Bag
+    - 20 Bag
   tMul: 2
   unit:
     unit: Kg
@@ -2123,11 +2658,13 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Appu
+      dispName: Red Khajur 1 Kg ( Appu )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
     - extItem: A1
+      dispName: Red Khajur 1 Kg ( A1)
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -2136,6 +2673,18 @@
   hName: प्लेट खजूर
   category: Dry Fruits
   tName: Wet Dates
+  dispName: Plate Khajur 500g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
+    - 10 Box
   unit:
     unit: Kg
     crushIndex: 3
@@ -2145,12 +2694,14 @@
       billQuantityMultiplier: 10
     extItems:
     - extItem: Regular
+      dispName: Black Dates Regular ( Plate )
       tName: Wet dates
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Seedless
+      dispName: Red Dates Seedless ( Plate )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -2161,12 +2712,13 @@
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: 5Kg Loose 
+      dispName: Black Dates Loose ( 5Kg )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 5
     - extItem: DC Buman
-      tName: Dates Crown Thermo 500gm
+      tName: Black Dates Date Crown Buman ( Plate )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -2209,6 +2761,18 @@
 - name: Masala 250
   hName: खड़ा मसाला 250
   category: Masale
+  dispName: Khada Masala 250g
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 4 Bag
   unit:
     unit: pcs
     crushIndex: 3
@@ -2219,12 +2783,14 @@
     extItems:
     - extItem: GG
       tName: Khada Masala 250gm Gajgouri
+      dispName: Khada Masala 250gm Premium
       tMul: 0.25
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 40
     - extItem: Khandeshi
+      dispName: Khada Masala 250gm Regular
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -2232,7 +2798,7 @@
 - name: Masala 1Kg
   hName: खड़ा मसाला 1Kg
   category: Masale
-  dispName: Khada Masala 1Kg
+  dispName: Khada Masala 1Kg Regular
   qtyOptions:
     - 1 Pcs
     - 2 Pcs
@@ -2251,12 +2817,14 @@
       billQuantityMultiplier: 5
     extItems:
     - extItem: Khandeshi
+      dispName: Khada Masala 1Kg Regular
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 5
 - name: GN Kani
   category: Dry Fruits
+  dispName: Shengdana Kani
   unit:
     unit: Kg
     crushIndex: 3
@@ -2277,28 +2845,33 @@
     extItems:
     - extItem: Regular
       tName: Kaju Kani Rej.
+      dispName: Kaju Kani Regular
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 15
     - extItem: Med
       tName: Kaju Kani Rej.
+      dispName: Kaju Kani Medium
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Extra
       tName: Kaju Kani Rej.
+      dispName: Kaju Kani Extra
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: GN
+      dispName: Shengdana Kani
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: PKP
+      dispName: Kaju Kani PKP
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -2333,13 +2906,7 @@
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Extra
-      dispName: Lavang Extra
-      extP2pUnit:
-        unit: Box
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 10
-    - extItem: Extra Bold
-      dispName: Lavang Lal Pari
+      dispName: Lavang Bold Size
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -2368,6 +2935,16 @@
 - name: Dagad Phool
   hName: दगड़ फूल
   tName: Stone Flower
+  dispName: Dagad Phool / Stone Flower
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: Kg
@@ -2379,6 +2956,17 @@
 - name: Dalchini
   hName: दालचीनी
   tName: Split Cassia
+  dispName: Dalchini Regular
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   category: Masale
   unit:
     unit: Kg
@@ -2411,6 +2999,17 @@
 - name: Sunth
   hName: सून्थ
   category: Masale
+  dispName: Sunth / Dry Ginger
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -2421,6 +3020,15 @@
 - name: Khurasni
   hName: खुरसनी
   category: Other
+  dispName: Khurasni
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2431,6 +3039,17 @@
 - name: Nakeshwar
   hName: नाकेश्वर
   category: Masale
+  dispName: Nakeshwar
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 4
@@ -2440,6 +3059,17 @@
       billQuantityMultiplier: 0
 - name: Kapur Chini
   hName: कपूर चीनी
+  dispName: Kapur Chini / Kabab Chini
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   category: Masale
   tName: Cubebs
   unit:
@@ -2452,6 +3082,16 @@
 - name: Kalonji
   hName: कलौंजी
   tName: Kalonji
+  dispName: Kalonji
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: Kg
@@ -2552,6 +3192,17 @@
 - name: Masala Elaichi
   hName: मसाला इलाइची
   tName: Big Cardamom
+  dispName: Masala Elaichi / Badi Elaichi
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   category: Masale
   unit:
     unit: Kg
@@ -2563,6 +3214,16 @@
 - name: Elaichi Dana
   hName: इलाइची दाना
   category: Masale
+  dispName: Elaichi Dana / Black Cardamom Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   tName: Black Cardamom Seeds
   unit:
     unit: Kg
@@ -2573,6 +3234,15 @@
       billQuantityMultiplier: 0
 - name: Kachi Supari
   hName: कच्ची सुपारी
+  dispName: Kachi Supari
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 20 Kg 
   category: Other
   unit:
     unit: Kg
@@ -2583,6 +3253,15 @@
       billQuantityMultiplier: 0
 - name: Bhajki Supari
   hName: भजकी सुपारी
+  dispName: Bhajki Supari
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 20 Kg
   category: Other
   unit:
     unit: Kg
@@ -2593,6 +3272,15 @@
       billQuantityMultiplier: 0
 - name: Pooja Supari
   hName: पूजा सुपारी
+  dispName: Pooja Supari
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 20 Kg
   category: Other
   unit:
     unit: Kg
@@ -2603,6 +3291,18 @@
       billQuantityMultiplier: 0
 - name: Pooja Badam
   hName: पूजा बादाम
+  dispName: Pooja Badam
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 20 Kg
+    - 1 Bag
+    - 2 Bag
+    - 5 Bag
   category: Other
   unit:
     unit: Kg
@@ -2614,6 +3314,17 @@
 - name: Shah Jeera
   hName: शाह जीरा
   category: Masale
+  dispName: Shah Jeera / Caraway Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -2624,11 +3335,23 @@
     extItems:
     - extItem: 1Kg
       tName: Shahjeera Gold
+      dispName: Shah Jeera Afgan Gold 1 Kg 
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 15
     - extItem: Loose
+      dispName: Shah Jeera Extra ( Loose )
+      qtyOptions:
+        - 0.5 Kg
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 1 Box
+        - 2 Box
+        - 3 Box
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -2687,6 +3410,16 @@
       billQuantityMultiplier: 0
 - name: Adiv
   hName: आदिव
+  dispName: Adiv / Aliv
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   category: Other
   unit:
     unit: Kg
@@ -2720,6 +3453,17 @@
 - name: Jad Rai
   hName: Jad राई
   category: Masale
+  dispName: Rai ( Jad / Bold )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag    
   unit:
     unit: Kg
     crushIndex: 1
@@ -2749,6 +3493,17 @@
 - name: Rai 100
   hName: राई 100
   tName: Rai Plus Food
+  dispName: Rai 100g ( Barik - Plus Food )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   category: Masale
   unit:
     unit: Kg
@@ -2773,6 +3528,17 @@
 - name: Rai 50
   hName: राई 50
   category: Masale
+  dispName: Rai 50g ( Barik - Plus Food )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   tName: Rai Plus Food
   unit:
     unit: Kg
@@ -2796,6 +3562,17 @@
         billQuantityMultiplier: 25
 - name: Rai 250
   hName: राई 250
+  dispName: Rai 250g ( Barik - Plus Food )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   category: Masale
   unit:
     unit: Kg
@@ -2821,6 +3598,15 @@
   hName: Jad राई 100
   category: Masale
   tName: Jad Rai 100 Gm Plus Food
+  dispName: Jad Rai 100g ( Plus Food )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2832,6 +3618,15 @@
   hName: Jad राई 50
   category: Masale
   tName: Jad Rai 50 Gm Plus Food
+  dispName: Jad Rai 50g ( Plus Food )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -2841,6 +3636,15 @@
       billQuantityMultiplier: 25
 - name: Jad Rai 250 PF
   hName: Jad राई 250
+  dispName: Jad Rai 250g ( Plus Food )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
   category: Masale
   unit:
     unit: Kg
@@ -2908,6 +3712,7 @@
         billQuantityMultiplier: 30
     - extItem: Bombay Spl
       tName: Coriander Seed Bombay Special
+      dispName: Dhana / Akha Dhana ( Bombay Special )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -2999,28 +3804,6 @@
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 30
-- name: Khuskhus 100   
-  hName: खासखास 100
-  category: Masale
-  unit:
-    unit: Kg
-    crushIndex: 1
-    p2pUnit:
-      unit: Bag
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
-    extItems:
-    - extItem: 5star
-      extP2pUnit:
-        unit: Box
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 25
-    - extItem: star
-      tName: Poppy Seeds
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 30
 - name: Khuskhus 20
   category: Masale
   hName: खासखास 20
@@ -3106,6 +3889,16 @@
 - name: Pooja Till
   category: Other
   hName: पूजा तिल
+  dispName: Pooja Till
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3153,6 +3946,16 @@
 - name: Till 250g
   hName: तिल 250gm
   category: Other
+  dispName: Till 250g / Seasam Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   tName: Tal 250g Select
   unit:
     unit: Kg
@@ -3164,6 +3967,16 @@
 - name: Till 100g
   hName: तिल 100gm
   category: Other
+  dispName: Till 100g / Seasam Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   tName: Tal 100g Select
   unit:
     unit: Kg
@@ -3194,6 +4007,16 @@
         billQuantityMultiplier: 25
 - name: Till 1Kg
   hName: तिल 1Kg
+  dispName: Till 1Kg / Seasam Seeds
+  qtyOptions: 
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   category: Other
   unit:
     unit: Kg
@@ -3203,14 +4026,16 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
     extItems:
-    - extItem: Select
-      tName: Tal 1 Kg Select
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 25
+#    - extItem: Select
+#      tName: Tal 1 Kg Select
+#      dispName: Till 1Kg Select
+#      extP2pUnit:
+#        unit: Bag
+#        otherChargesMultiplier: 0
+#        billQuantityMultiplier: 25
     - extItem: Arvee
       tName: Seasam Seed
+      dispName: Till 1Kg Extra
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3219,6 +4044,16 @@
   category: Other
   hName: सब्जा
   tName: Basil Seeds
+  dispName: Sabja / Basil Seeds
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3271,19 +4106,6 @@
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
-    - extItem: 1111
-      tName: Halkund
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 0
-    - extItem: Shiv
-      tName: Halkund
-      dispName: Halkund / Sabut Haldi ( Shiv )
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 0
 - name: Jeera loose
   category: Masale
   dispName: Jeera / Cumin Seeds
@@ -3308,13 +4130,13 @@
       billQuantityMultiplier: 30
     extItems:
     - extItem: MC Taste
-      tName: Jeera Loose Extra
+      dispName: Jeera Loose Extra
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 30
     - extItem: Zaika
-      tName: Jeera Loose Regular
+      dispName: Jeera Loose Regular
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3344,29 +4166,27 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Zaika
+      dispName: Jeera 1Kg Regular
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 30
-    - extItem: RB Gold
-      tName: Jeera 1KG RB GOLD
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 20
     - extItem: PF
       tName: Jeera 1Kg Plus Food
+      dispName: Jeera 1Kg Plus Food
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: MC Taste
+      dispName: Jeera 1Kg Medium ( MC Taste )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 30
     - extItem: Rangeela
       tName: Jeera 1Kg Rangeela
+      dispName: Jeera 1Kg Medium ( Rangeela )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3374,6 +4194,15 @@
 - name: Jeera 100
   hName: जीरा 100
   category: Masale
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3382,19 +4211,15 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
     extItems:
-    - extItem: RB Gold
-      tName: Jeera RB Gold
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 20
     - extItem: PF
       tName: Jeera Plus Food
+      dispName: Jeera 100gm Plus Food
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: MC Taste
+      dispName: Jeera 100gm Medium ( MC Taste )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3402,6 +4227,16 @@
 - name: Jeera 250
   hName: जीरा 250
   category: Masale
+  dispName: Jeera 250g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3410,20 +4245,16 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
     extItems:
-    - extItem: RB Gold
-      tName: Jeera RB Gold
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 20
     - extItem: PF
       tName: Jeera Plus Food
+      dispName: Jeera 250gm Plus Food
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Select
       tName: Jeera Select Mix
+      dispName: Jeera 250gm Select
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3431,6 +4262,16 @@
 - name: Jeera 50
   hName: जीरा 50
   category: Masale
+  dispName: Jeera 50g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3440,27 +4281,24 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Select
+      dispName: Jeera 50gm Select
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
     - extItem: PF
       tName: Jeera Plus Food
+      dispName: Jeera 50gm Plus Food
       extP2pUnit: 
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: MC Taste
+      dispName: Jeera 50gm Medium ( MC Taste )
       extP2pUnit: 
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 30
-    - extItem: RB Gold
-      tName: Jeera 50gm RB Gold
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 20
 - name: Ajwain
   hName: अजवाइन 1Kg
   dispName: Ajwain / Carom Seeds
@@ -3483,23 +4321,26 @@
     extItems:
     - extItem: Zaika
       tName: Ajwain Zaika
+      dispName: Ajwain 1 Kg Regular
       extP2pUnit:
         unit: Bag 
         otherChargesMultiplier: 0
         billQuantityMultiplier: 30
     - extItem: DAs
       tName: Ajamo Da's Ajwain 1Kg
+      dispName: Ajwain 1 Kg Regular ( DA )
       extP2pUnit:
         unit: Bag 
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Diamond
-      tName: Ajwain 1 Kg ( Bora / Diamond )
+      dispName: Ajwain 1 Kg ( Bora / Diamond )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
     - extItem: Royal
+      dispName: Ajwain 1 Kg Medium ( Royal )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -3507,6 +4348,16 @@
 - name: Ajwain 50
   hName: अजवाइन 50
   category: Masale
+  dispName: Ajwain 50g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3517,23 +4368,20 @@
     extItems:
     - extItem: DA
       tName: Ajamo Da's Ajwain 50 Gm
+      dispName: Ajwain 50g Regular ( DA )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: PF
       tName: Ajwain 50 Gm Plus Food
+      dispName: Ajwain 50g ( Plus Food )  
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
-    - extItem: Samip
-      tName: Ajwain 50 Gm Samip
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 20
     - extItem: Diamond
+      dispName: Ajwain 50g ( Bora / Diamond )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -3541,6 +4389,16 @@
 - name: Ajwain 100
   hName: अजवाइन 100
   category: Masale
+  dispName: Ajwain 100g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3551,23 +4409,20 @@
     extItems:
     - extItem: DAs
       tName: Ajamo Da's Ajwain 100gm
+      dispName: Ajwain 100g Regular ( DA )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: PF
       tName: Ajwain 100 Gm Plus Food
+      dispName: Ajwain 100g ( Plus Food )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
-    - extItem: Samip
-      tName: Ajwain 100gm Samip
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 20
     - extItem: Diamond
+      dispName: Ajwain 100g ( Bora / Diamond )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -3575,6 +4430,16 @@
 - name: Ajwain 250
   hName: अजवाइन 250
   category: Masale
+  dispName: Ajwain 250g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3585,17 +4450,20 @@
     extItems:
     - extItem: Select
       tName: Ajamo Select Ajwain 250 Gm
+      dispName: Ajwain 250g Select
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Diamond
+      dispName: Ajwain 250g ( Bora / Diamond )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
     - extItem: PF
       tName: Ajwain 250 Gm Plus Food
+      dispName: Ajwain 250g ( Plus Food )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -3624,7 +4492,8 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
     extItems:
-    - extItem: Regular
+    - extItem: Regular  
+      dispName: Badi Souf Regular 1 kg
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3635,23 +4504,20 @@
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: Extra
+      dispName: Badi Souf Extra ( Export )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: MC Taste
+      dispName: Badi Souf Premium
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: PF 250g
       tName: B Souf 250g Plus Food
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 0
-    - extItem: PF 50g
-      tName: B Souf 50g Plus Food
+      dispName: Badi Souf Plus Food
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3660,6 +4526,16 @@
   hName: लखनऊ सौफ
   category: Other
   tName: Souff L
+  dispName: Lucknow Souf / Barik Souf
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -3671,6 +4547,16 @@
   hName: भाजकी सौफ
   category: Other
   tName: Souff Bhajki
+  dispName: Bhaji Souf
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag  
   unit:
     unit: Kg
     crushIndex: 1
@@ -3681,6 +4567,14 @@
 - name: Sugam 80
   hName: सुगम 80
   category: Other
+  dispName: Sugam Mukhwas 80g ( Rs. 40 )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 5 pkt
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: pkt
     crushIndex: 1
@@ -3691,6 +4585,14 @@
 - name: Sugam 40
   hName: सुगम 40
   category: Other
+  dispName: Sugam Mukhwas 40g ( Rs. 20 )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 5 pkt
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: pkt
     crushIndex: 1
@@ -3702,6 +4604,16 @@
   hName: इन्डियन मुखवास
   category: Other
   tName: Mukhwas Indian
+  dispName: Mukhwas 1 kg ( Indian )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag 
   unit:
     unit: Kg
     crushIndex: 1
@@ -3712,6 +4624,16 @@
 - name: Mirchi 1kg
   hName: मिर्ची  1 Kg
   category: Masale
+  dispName: Mirchi Powder 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -3722,18 +4644,47 @@
     extItems:
     - extItem: GG
       tName: Gajgouri Mirchi Powder 1K
+      dispName: Mirchi Powder 1 Kg ( Gajgauri )
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Box
+        - 2 Box
+        - 3 Box
+        - 5 Box
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
     - extItem: Rajkamal
       tName: Chilles Powder Rajkamal
+      dispName: Mirchi Powder 1 Kg ( Rajkamal )
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 1 Bag
+        - 2 Bag
+        - 3 Bag
+        - 5 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Dhanlaxmi
       tName: Dhanlaxmi Chilli Powder
+      dispName: Mirchi Powder 1 Kg ( Regular / Dhanlaxmi )
+      qtyOptions:
+        - 1 Bag
+        - 2 Bag
+        - 3 Bag
+        - 5 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3786,6 +4737,7 @@
         billQuantityMultiplier: 16
     - extItem: Tarilal
       tName: Tarrilal Mirchi Powder 100 Gm
+      dispName: Mirchi Powder 100g Tarilal
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -3838,16 +4790,11 @@
         billQuantityMultiplier: 16
     - extItem: Tarilal
       tName: Tarrilal Mirchi Powder 200gm
+      dispName: Mirchi Powder 200g Tarilal
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
-    - extItem: Raja Rani
-      tName: Chilli Powder 200 Gm Raja Rani
-      extP2pUnit:
-        unit: Box
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 25
 - name: Mirchi 500
   dispName: Mirchi Powder 500g
   category: Masale
@@ -3858,6 +4805,7 @@
     - 5 Kg
     - 1 Bag
     - 2 Bag
+    - 5 Bag
   hName: मिर्ची  500
   unit:
     unit: Kg
@@ -3869,6 +4817,7 @@
     extItems:
     - extItem: Rajkamal
       tName: Chilles Powder Rajkamal
+      dispName: Mirchi Powder 500g Rajkamal
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3876,15 +4825,6 @@
     - extItem: Ambari
       tName: Chilli Powder 500gm Pch Ambari
       dispName: Mirchi Powder 500g Ambari
-      qtyOptions:
-        - 1 Kg
-        - 2 Kg
-        - 3 Kg
-        - 4 Kg
-        - 5 Kg
-        - 1 Bag
-        - 2 Bag
-        - 5 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3892,21 +4832,31 @@
     - extItem: Everest
       tName: Tikhalal 500 Gms
       dispName: Mirchi Powder 500g Everest Tikhalal
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 2.5 Kg
+        - 4 Kg
+        - 5 Kg
+        - 1 Box
+        - 2 Box
       category: Everest
       tMul: 2
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 20
-    - extItem: Raja Rani
-      tName: Chilli Powder 200 Gm Raja Rani
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 5
 - name: Haldi 50 PF
   category: Masale
   tName: Turmeric Powder Plus Food
+  dispName: Haldi Powder 50g Plus Food
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -3937,6 +4887,15 @@
     extItems:
     - extItem: PF
       tName: Turmeric Powder Plus Food
+      dispName: Haldi Powder 100g Plus Food
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3950,12 +4909,6 @@
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 16
-    - extItem: Suhana
-      tName: Turmeric 100 Gms Suhana
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 5
 - name: Haldi 200
   hName: हल्दी 200
   dispName: Turmeric Powder 200g
@@ -3979,6 +4932,15 @@
     extItems:
     - extItem: PF
       tName: Turmeric Powder Plus Food
+      dispName: Haldi Powder 200g Plus Food
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -3992,15 +4954,19 @@
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 16
-    - extItem: Suhana
-      tName: Turmeric 200 Gms Suhana
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 5
 - name: Haldi 500
   hName: हल्दी 500
   category: Masale
+  dispName: Haldi Powder 500g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 2.5 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4011,12 +4977,22 @@
     extItems:
     - extItem: Select
       tName: Turmeric 500 Gms Select
+      dispName: Haldi Powder 500g Select
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 2.5 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: Everest
       tName: Turmeric Powder 500gms
+      dispName: Haldi Powder 500g Everest
       category: Everest
       tMul: 2
       extP2pUnit:
@@ -4025,12 +5001,30 @@
         billQuantityMultiplier: 20
     - extItem: PF
       tName: Turmeric 500 Gms PF
+      dispName: Haldi Powder 500g Plus Food
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Raja Rani
       tName: Turmeric Powder Raja Rani
+      dispName: Haldi Powder 500g Raja Rani
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -4039,6 +5033,17 @@
   hName: हल्दी  1kg GG 
   category: Masale
   tName: Haldi Powder Gajgouri
+  dispName: Haldi Powder 1 Kg Gajgauri
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4049,6 +5054,15 @@
 - name: Dhana 50 PF
   hName: धना 50 PF
   tName: Dhana Powder Plus Food
+  dispName: Dhana Powder 50g Plus Food
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -4079,6 +5093,15 @@
     extItems:
     - extItem: PF
       tName: Dhana Powder Plus Food
+      dispName: Dhana Powder 100g Plus Food
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -4092,12 +5115,6 @@
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 16
-    - extItem: Ambari
-      tName: Unknown
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 5
 - name: Dhana 200
   hName: धना 200
   category: Masale
@@ -4121,6 +5138,15 @@
     extItems:
     - extItem: PF
       tName: Dhana Powder Plus Food
+      dispName: Dhana Powder 200g Plus Food
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -4137,6 +5163,16 @@
 - name: Dhana 500
   hName: धना 500
   category: Masale
+  dispName: Dhana Powder 500g
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 2.5 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4145,20 +5181,25 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 0
     extItems:
-    - extItem: Select
-      tName: Select Dhana Powder 500 Gm
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 25    
     - extItem: Raja Rani
       tName: Coriander Powder 500gm Raja Rani
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
+        - 2 Bag
+        - 5 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Everest
       tName: Coriander 500 Gm Everest
+      dispName: Dhana Powder 500g Everest
       category: Everest
       tMul: 2
       extP2pUnit:
@@ -4169,6 +5210,16 @@
   hName: धना 1Kg GG
   category: Masale
   tName: Gajgouri Dhana Powder 1 Kg
+  dispName: Dhana Powder 1 Kg Gajgouri
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4180,6 +5231,16 @@
   hName: कांडा लासुन 1Kg
   category: Masale
   tName: Gajgauri Kanda Lasun Masala 1kg
+  dispName: Kanda Lasun 1 Kg Gajgouri
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4209,6 +5270,7 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Nag
+      dispName: Hing Powder 50g Regular
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -4232,20 +5294,18 @@
   hName: हींग  Jar
   category: Masale
   tName: Navjeevan Yellow Powder 10gm
+  dispName: Hing Powder Rs. 15 Navjeevan
+  qtyOptions:
+    - 1 Jar
+    - 2 Jar
+    - 3 Jar
+    - 5 Jar
+    - 10 Jar
+    - 1 Box
+    - 2 Box
   unit:
     unit: Jar
     crushIndex: 4
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
-- name: Hing 500 Nav
-  hName: हींग  500 Nav
-  category: Masale
-  tName: Navjeevan Yellow Powder 500 Gm
-  unit:
-    unit: Kg
-    crushIndex: 2
     p2pUnit:
       unit: Box
       otherChargesMultiplier: 0
@@ -4254,6 +5314,16 @@
   hName: हींग  200 Nav
   category: Masale
   tName: Navjeevan Yellow Powder 200 Gm
+  dispName: Hing Powder 200g Navjeevan
+  qtyOptions:
+    - 600 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4264,6 +5334,16 @@
 - name: Hing 100
   hName: हींग  100
   category: Masale
+  dispName: Hing Powder 100g
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4274,6 +5354,7 @@
     extItems:
     - extItem: LG
       tName: LG Hing Powder 100gm
+      dispName: Hing Powder 100g LG
       tMul: 10
       extP2pUnit:
         unit: Box
@@ -4281,6 +5362,7 @@
         billQuantityMultiplier: 0
     - extItem: Nav
       tName: Navjeevan Yellow Powder 100gm
+      dispName: Hing Powder 100g Navjeevan
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -4289,6 +5371,15 @@
   hName: हींग  1kg Nav
   category: Masale
   tName: Navjeevan Yellow Powder 1 Kg
+  dispName: Hing Powder 1 Kg Navjeevan
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -4320,6 +5411,13 @@
 - name: Kath
   hName: काथ
   category: Masale
+  dispName: Kath / Katha
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
   unit:
     unit: Kg
     crushIndex: 2
@@ -4330,6 +5428,16 @@
 - name: Black Hing
   hName: काला हिंग
   category: Masale
+  dispName: Black Hing / Kala Hing Khada
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -4340,17 +5448,14 @@
     extItems:
     - extItem: loose
       tName: Khada Hing
+      dispName: Black Hing Loose ( Kala Khada )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
     - extItem: 1Kg Navjeevan
       tName: 1Kg Navjeevan Black Khada
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 0
-    - extItem: 1Kg Nag
+      dispName: Black Hing 1 Kg ( Navjeevan - Khada )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -4358,6 +5463,16 @@
 - name: Brown Hing
   category: Masale
   tName: Khada Hing
+  dispName: Brown Hing Khada
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -4365,26 +5480,6 @@
       unit: Bag
       otherChargesMultiplier: 0
       billQuantityMultiplier: 10
-- name: Jeera Gajraj MRP 10
-  tName: Jeera Gajraj Rs.10
-  category: Masale
-  unit:
-    unit: Hangere
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
-- name: Misal 10 Gajraj
-  tName: Gajraj Misal Masala Rs.10
-  category: Masale
-  unit:
-    unit: Hanger
-    crushIndex: 3
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
 - name: Chat 500
   hName: चाट 500
   tName: Chat Masala 500 Sky
@@ -4399,27 +5494,24 @@
 - name: Jaljeera 500
   hName: जलजीरा 500
   category: Masale
+  tName: Jaljeera Masala 500 Gm Sky
+  dispName: Jaljeera Masala Regular 500 Gm
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
     p2pUnit:
       unit: Bag
       otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
-    extItems:
-    - extItem: Sky
-      tName: Jaljeera Masala 500 Gm Sky
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 25
-    - extItem: Jalani
-      tName: Jaljira Masala 500g Pouch (Jalani)
-      tMul: 2
-      extP2pUnit:
-        unit: Box
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 0
+      billQuantityMultiplier: 25
 - name: Amchoor 1kg
   hName: अमचूर 1 Kg
   category: Masale
@@ -4477,6 +5569,14 @@
       billQuantityMultiplier: 30
 - name: Boor Mirchi
   tName: Bor Mirchi
+  dispName: Boor Mirchi
+  qtyOptions:
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 1 Bag
   category: Masale
   unit:
     unit: Kg
@@ -4531,6 +5631,15 @@
   hName: पानी पूरी 1kg
   category: Other
   tName: Golmol
+  dispName: Pani Puri 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 3
@@ -4654,6 +5763,16 @@
 - name: Phutane
   category: Other
   hName: फ़ुटाने
+  dispName: Phutane
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -4663,11 +5782,13 @@
       billQuantityMultiplier: 25
     extItems:
     - extItem: Yellow
+      dispName: Phutane ( Plain / Yellow )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Salted
+      dispName: Phutane ( Salted )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -4695,6 +5816,17 @@
 - name: Papad Kerala
   hName: अप्पलम पापड़
   tName: Appalam Papad
+  dispName: Kerala Papad / Appalam Papad
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
   unit:
     unit: Kg
     crushIndex: 4
@@ -4733,6 +5865,14 @@
 - name: Papad Mahavir
   category: Other
   hName: महावीर पापड़
+  dispName: Mahavir Papad
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
   unit:
     unit: Kg
     crushIndex: 4
@@ -4812,6 +5952,14 @@
 - name: Chilli Sauce
   category: Other
   hName: चिली सॉस
+  dispName: Chilli Sauce
+  qtyOptions:
+    - 6 pcs
+    - 12 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: pcs
     crushIndex: 4
@@ -4822,11 +5970,13 @@
     extItems:
     - extItem: Navkar
       tName: Red Chilly Nav
+      dispName: Chilli Sauce Bottle ( Navkar )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 24
     - extItem: Chings
+      dispName: Chilli Sauce Bottle ( Chings )
       tName: Chings Chilli Sauce 680 Gm
       extP2pUnit:
         unit: Box
@@ -4908,6 +6058,14 @@
 - name: Soya Sauce
   category: Other
   hName: सोया सॉस
+  dispName: Soya Sauce
+  qtyOptions:
+    - 6 pcs
+    - 12 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: pcs
     crushIndex: 2
@@ -4918,12 +6076,14 @@
     extItems:
     - extItem: Navkar
       tName: Soya Sauce Nav
+      dispName: Soya Sauce Bottle ( Navkar )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 24
     - extItem: Chings
       tName: Chings Dark Soya Sauce 750 Gm
+      dispName: Soya Sauce Bottle ( Chings )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -4943,6 +6103,14 @@
   category: Other
   hName: स्नैक्स सॉस
   tName: Snacks Sauce Bot
+  dispName: Snacks Sauce Bottle ( Navkar )
+  qtyOptions:
+    - 6 pcs
+    - 12 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: pcs
     crushIndex: 4
@@ -4961,6 +6129,14 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 4
 - name: Green Chilli Sauce
+  dispName: Green Chilli Sauce Bottle ( Navkar )
+  qtyOptions:
+    - 6 pcs
+    - 12 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   category: Other
   unit:
     unit: pcs
@@ -4984,6 +6160,14 @@
         billQuantityMultiplier: 24
 - name: Noodles
   category: Other
+  dispName: Noodles
+  qtyOptions:
+    - 1 Box
+    - 2 Box
+    - 5 Box
+    - 10 Box
+    - 20 Box
+    - 50 Box
   unit:
     unit: pkt
     crushIndex: 5
@@ -4993,11 +6177,13 @@
       billQuantityMultiplier: 1
     extItems:
     - extItem: Yellow
+      dispName: Noodles ( Yellow )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 1
     - extItem: White
+      dispName: Noodles ( White )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -5013,6 +6199,14 @@
       billQuantityMultiplier: 18
 - name: Venigar
   category: Other
+  dispName: Venigar ( Navkar )
+  qtyOptions:
+    - 6 pcs
+    - 12 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: pcs
     crushIndex: 4
@@ -5023,6 +6217,15 @@
 - name: Noodles Masala
   category: Other
   tName: Chings Hakka Noodles Masala 240g
+  dispName: Noodles Masala ( Chings )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 5 pkt
+    - 1 Box
+    - 2 Box
+    - 3 Box
   tMul: 20
   unit:
     unit: pkt
@@ -5034,6 +6237,15 @@
 - name: Manchurian Masala
   category: Other
   tName: Veg Manchu Masala
+  dispName: Veg Manchurian Masala ( Chings )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 5 pkt
+    - 1 Box
+    - 2 Box
+    - 3 Box
   tMul: 20
   unit:
     unit: pkt
@@ -5045,6 +6257,15 @@
 - name: Rice Masala
   category: Other
   tName: Schzwan Rice Masala Chings
+  dispName: Fried Rice Masala ( Chings )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 5 pkt
+    - 1 Box
+    - 2 Box
+    - 3 Box
   tMul: 20
   unit:
     unit: pkt
@@ -5107,6 +6328,7 @@
 - name: Raidal
   category: Masale
   tName: Raidal
+  dispName: Raidal
   unit:
     unit: Kg
     crushIndex: 1
@@ -5117,6 +6339,15 @@
 - name: Lemon Yellow 100
   category: Other
   tName: 3 Parrot 100 Gms Colour
+  dispName: Lemon Yellow 100g 3 Parrot
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -5127,6 +6358,15 @@
 - name: Orange Red 100
   category: Other
   tName: 3 Parrot 100 Gms Colour
+  dispName: Orange Red 100g 3 Parrot
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -5197,6 +6437,14 @@
 - name: Orange Red 10
   category: Other
   tName: 3 Parrot 10 Gms Color
+  dispName: Orange Red 10g ( Rs. 11 )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 10 pkt
   unit:
     unit: Box
     crushIndex: 4
@@ -5207,6 +6455,14 @@
 - name: Kesri 10
   category: Other
   tName: 3 Parrot 10 Gms Color
+  dispName: Kesri 10g ( Rs. 11 )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 10 pkt
   unit:
     unit: Box
     crushIndex: 4
@@ -5227,6 +6483,14 @@
 - name: Apple Green 10
   category: Other
   tName: 3 Parrot 10 Gms Color
+  dispName: Apple Green 10g ( Rs. 11 )
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 10 pkt
   unit:
     unit: Box
     crushIndex: 4
@@ -5256,6 +6520,16 @@
       billQuantityMultiplier: 10
 - name: Lemon Yellow Bush
   category: Other
+  dispName: Lemon Yellow Bush
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 1 Box
+    - 2 Box
   unit:
     unit: pcs
     crushIndex: 3
@@ -5274,6 +6548,16 @@
       billQuantityMultiplier: 0
 - name: Orange Red Bush
   category: Other
+  dispName: Orange Red Bush
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 1 Box
+    - 2 Box
   unit:
     unit: pcs
     crushIndex: 3
@@ -5283,6 +6567,16 @@
       billQuantityMultiplier: 120
 - name: Kesri Bush
   category: Other
+  dispName: Kesri Bush
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
+    - 30 pcs
+    - 1 Box
+    - 2 Box
   unit:
     unit: pcs
     crushIndex: 3
@@ -5310,6 +6604,13 @@
       billQuantityMultiplier: 120
 - name: Tomato Red Bush
   category: Other
+  dispName: Tomato Red Bush
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 5 pcs
+    - 10 pcs
+    - 20 pcs
   unit:
     unit: pcs
     crushIndex: 3
@@ -5359,6 +6660,14 @@
 - name: Round Cherry
   tName: Karonda Cherry 12%
   category: Other
+  dispName: Round Cherry
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
   unit:
     unit: Kg
     crushIndex: 4
@@ -5386,6 +6695,17 @@
       billQuantityMultiplier: 0
 - name: Pooja Jav
   category: Other
+  dispName: Pooja Jav
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 20 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -5396,6 +6716,15 @@
 - name: Amsool
   category: Other
   tName: Kokam KS 1kg
+  dispName: Amsool
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 2
@@ -5570,6 +6899,17 @@
       billQuantityMultiplier: 30
 - name: Soda 1kg
   tName: Shakti Cooking Soda 1 Kg
+  dispName: Soda 1 Kg ( Tata )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   category: Other
   unit:
     unit: Kg
@@ -5601,6 +6941,15 @@
 - name: Dhana Dal 200
   tName: Dhanadal Patel
   category: Other
+  dispName: Dhana Dal 200g ( Patel )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -5632,6 +6981,13 @@
       billQuantityMultiplier: 30
 - name: Turti
   category: Other
+  dispName: Turti
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 4 pkt
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: pkt
     crushIndex: 2
@@ -5642,6 +6998,16 @@
 - name: Tejpan
   tName: Tejpatta
   category: Masale
+  dispName: Tejpan
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 4
@@ -5652,6 +7018,17 @@
 - name: Badian
   tName: Star Aniseeds Regular
   category: Masale
+  dispName: Badian / Star Phool 
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: Kg
     crushIndex: 5
@@ -5661,11 +7038,13 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Regular
+      dispName: Badia / Star Phool ( Regular )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: Extra
+      dispName: Badia / Star Phool ( Extra )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -5731,6 +7110,15 @@
       billQuantityMultiplier: 0
 - name: Jaipatri
   category: Masale
+  dispName: Jaipatri
+  qtyOptions:
+    - 250 gm
+    - 500 gm
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 1 Box
+    - 2 Box
   unit:
     unit: Kg
     crushIndex: 5
@@ -5770,6 +7158,17 @@
       billQuantityMultiplier: 25
 - name: Ajino
   category: Other
+  dispName: Ajino / Ajinomoto
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 10 Kg
+    - 15 Kg
+    - 1 Bag
+    - 2 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -5777,34 +7176,42 @@
       unit: Bag
       otherChargesMultiplier: 0
       billQuantityMultiplier: 25
-- name: Khopra 10kg
-  category: Masale
-  tName: Copra
-  unit:
-    unit: Kg
-    crushIndex: 1
-    p2pUnit:
-      unit: Bag
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 10
-    extItems:
-    - extItem: GC Box
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 10
-    - extItem: GC Bag
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 10
-    - extItem: Nimbu Small
-      extP2pUnit:
-        unit: Bag
-        otherChargesMultiplier: 0
-        billQuantityMultiplier: 10
+#- name: Khopra 10kg
+#  category: Masale
+#  tName: Copra
+#  unit:
+#    unit: Kg
+#    crushIndex: 1
+#    p2pUnit:
+#      unit: Bag
+#      otherChargesMultiplier: 0
+#      billQuantityMultiplier: 10
+#    extItems:
+#    - extItem: GC Box
+#      extP2pUnit:
+#        unit: Bag
+#        otherChargesMultiplier: 0
+#        billQuantityMultiplier: 10
+#    - extItem: GC Bag
+#      extP2pUnit:
+#        unit: Bag
+#        otherChargesMultiplier: 0
+#        billQuantityMultiplier: 10
+#    - extItem: Nimbu Small
+#      extP2pUnit:
+#       unit: Bag
+#        otherChargesMultiplier: 0
+#       billQuantityMultiplier: 10
 - name: S Chutney
   tName: Sch.Chutney 30Gm Chings
+  dispName: Schezwan Chutney Rs. 10
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 1 Box
+    - 2 Box
   category: Masale
   tMul: 60
   unit:
@@ -6079,6 +7486,15 @@
       billQuantityMultiplier: 24
 - name: Aachar Cut Mirchi
   category: Masale
+  dispName: Mirchi Powder Aachar Cut 
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -6088,6 +7504,10 @@
       billQuantityMultiplier: 10
 - name: Aachar Masala
   category: Other
+  dispName: Aachar Masala
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
   unit:
     unit: Kg
     crushIndex: 1
@@ -6098,12 +7518,33 @@
     extItems:
     - extItem: Rambandhu
       tName: RB Aachar Masala 100gm
+      dispName: Aachar Masala ( Rambandhu )
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 1 Pack ( 5 Kg )
+        - 2 Pack ( 5 Kg )
+        - 1 Bag
+        - 2 Bag
+        - 3 Bag
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Bedaker
       tName: Bedaker Reday Pickle Mix
+      dispName: Aachar Masala ( Rambandhu )
+      qtyOptions:
+        - 1 Kg
+        - 2 Kg
+        - 3 Kg
+        - 4 Kg
+        - 5 Kg
+        - 10 Kg
+        - 1 Bag
+        - 2 Bag
+        - 3 Bag
       tMul: 10
       extP2pUnit:
         unit: Bag
@@ -6120,6 +7561,18 @@
       billQuantityMultiplier: 0
 - name: Cornflour 1Kg
   category: Other
+  dispName: Cornflour 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -6188,6 +7641,7 @@
     - 8 pcs
     - 9 pcs
     - 10 pcs
+    - 20 pcs
     - 1 Box
   unit:
     unit: pcs
@@ -6198,7 +7652,21 @@
       billQuantityMultiplier: 60
 - name: Ghee 500
   tName: Gow Premium Ghee 500
+  dispName: Gowardhan Ghee 500 Ml
   category: Other
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 3 pcs
+    - 4 pcs
+    - 5 pcs
+    - 6 pcs
+    - 7 pcs
+    - 8 pcs
+    - 9 pcs
+    - 10 pcs
+    - 20 pcs
+    - 1 Box
   unit:
     unit: pcs
     crushIndex: 5
@@ -6256,6 +7724,17 @@
       billQuantityMultiplier: 0
 - name: Kheer Mix
   category: Masale
+  dispName: Kheer Mix Masala
+  qtyOptions:
+    - 1 pkt
+    - 2 pkt
+    - 3 pkt
+    - 4 pkt
+    - 5 pkt
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
+    - 5 Bag
   unit:
     unit: pkt
     crushIndex: 3
@@ -6265,12 +7744,14 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Aachi
+      dispName: Kheer Mix ( Aachi )
       tName: Payasam Mix
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 6
     - extItem: BSW
+      dispName: Kheer Mix ( BSW )
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -6337,6 +7818,15 @@
       billQuantityMultiplier: 15
 - name: Charkha
   tName: Garam Masala Charkha
+  dispName: Charkha Garam Masala 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: Kg
@@ -6378,7 +7868,7 @@
         otherChargesMultiplier: 0
         billQuantityMultiplier: 10
 - name: Someshwar 200
-  dispName: Someshwar Kala Masaal 200g
+  dispName: Someshwar Kala Masala 200g
   category: Masale
   qtyOptions:
     - 1 Kg
@@ -6393,7 +7883,13 @@
       otherChargesMultiplier: 0
       billQuantityMultiplier: 10
 - name: Someshwar 500
+  dispName: Someshwar Kala Masala 500g
   category: Masale
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 5 Kg
+    - 1 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -6413,6 +7909,14 @@
       billQuantityMultiplier: 0
 - name: Kothmire 200
   tName: Koth Masala
+  dispName: Kothmire Masala 200gm
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
   category: Masale
   unit:
     unit: Kg
@@ -6543,6 +8047,15 @@
         billQuantityMultiplier: 0
 - name: Udad Disco
   tName: SAMADHAN DISCO PAPAD 1KG
+  dispName: Udad Disco Papad
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   category: Other
   unit:
     unit: Kg
