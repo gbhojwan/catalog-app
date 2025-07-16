@@ -6,6 +6,15 @@
   category: Everest
   dispName: Everest Hanger
   tMul: 30
+  qtyOptions:
+    - 1 Hang
+    - 2 Hang
+    - 3 Hang
+    - 4 Hang
+    - 5 Hang
+    - 10 Hang
+    - 1 Box
+    - 2 Box
   unit:
     unit: Hanger
     crushIndex: 3
@@ -173,8 +182,8 @@
   tName: Shahi Biryani 200 Gms Everest
   dispName: Shahi Biryani 200 Gms Everest
   qtyOptions:
-    - 0.2 Kg
-    - 0.4 Kg
+    - 200 gm
+    - 400 gm
     - 1 Kg
     - 2 Kg
     - 3 Kg
@@ -241,8 +250,8 @@
   tName: Pav Bhaji Masala 200 Gms Everest
   dispName: Pav Bhaji Masala 200g Everest
   qtyOptions:
-    - 0.2 Kg
-    - 0.4 Kg
+    - 200 gm
+    - 400 gm
     - 1 Kg
     - 2 Kg
     - 3 Kg
@@ -1489,6 +1498,7 @@
     - 4 Hang
     - 5 Hang
     - 10 Hang
+    - 1 Box
   unit:
     unit: Hanger
     crushIndex: 3
@@ -2146,6 +2156,7 @@
     - 10 Kg
     - 15 Kg
     - 20 Kg
+    - 1 Bag
   unit:
     category: Dry Fruits
     unit: Kg
@@ -2728,11 +2739,11 @@
   category: Masale
   dispName: Khada Masala 500g
   qtyOptions:
-    - 500 gm
-    - 1 Kg
-    - 2 Kg
-    - 3 Kg
-    - 4 Kg
+    - 1 pcs
+    - 2 pcs
+    - 4 pcs
+    - 6 pcs
+    - 8 pcs
     - 1 Bag
     - 2 Bag
     - 3 Bag
@@ -2763,16 +2774,14 @@
   category: Masale
   dispName: Khada Masala 250g
   qtyOptions:
-    - 250 gm
-    - 500 gm
-    - 1 Kg
-    - 2 Kg
-    - 3 Kg
-    - 4 Kg
+    - 2 pcs
+    - 4 pcs
+    - 5 pcs
     - 1 Bag
     - 2 Bag
     - 3 Bag
     - 4 Bag
+    - 5 Bag
   unit:
     unit: pcs
     crushIndex: 3
@@ -2881,8 +2890,8 @@
   tName: Cloves
   dispName: Lavang / Cloves
   qtyOptions:
-    - 250 g
-    - 500 g
+    - 250 gm
+    - 500 gm
     - 1 Kg
     - 2 Kg
     - 3 Kg
@@ -6935,7 +6944,7 @@
     unit: pkt
     crushIndex: 2
     p2pUnit:
-      unit: Bag
+      unit: Box
       otherChargesMultiplier: 0
       billQuantityMultiplier: 8
 - name: Dhana Dal 200
@@ -7472,11 +7481,11 @@
     - 2 Kg
     - 3 Kg 
     - 4 Kg
-    - 5 Kg
-    - 1 Pack(6 Kg)
-    - 1 Bag(24 Kg)
-    - 2 Bag(24 Kg)
-    - 3 Bag(24 Kg)
+    - 6 Kg
+    - 12 Kg
+    - 1 Bag
+    - 2 Bag
+    - 3 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -7523,8 +7532,8 @@
         - 1 Kg
         - 2 Kg
         - 3 Kg
-        - 1 Pack ( 5 Kg )
-        - 2 Pack ( 5 Kg )
+        - 5 Kg
+        - 10 Kg
         - 1 Bag
         - 2 Bag
         - 3 Bag
@@ -7970,11 +7979,11 @@
   dispName: Sevai Rosted ( Genda )
   category: Other
   qtyOptions:
-    - 0.5 Dozen
-    - 1 Dozen
-    - 2 Dozen
-    - 3 Dozen
-    - 4 Dozen
+    - 6 pcs
+    - 12 pcs
+    - 24 pcs
+    - 36 pcs
+    - 48 pcs
     - 1 Box
     - 2 Box
   unit:
@@ -8104,8 +8113,8 @@
     - 3 Kg
     - 4 Kg
     - 5 Kg
-    - 1 Bag ( 12.5 Kg )
-    - 1 Box ( 25 Kg )
+    - 12.5 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 1
@@ -8123,8 +8132,8 @@
     - 3 Kg
     - 4 Kg
     - 5 Kg
-    - 1 Bag ( 12.5 Kg )
-    - 1 Box ( 25 Kg )
+    - 12.5 Kg
+    - 1 Box
   unit:
     unit: Kg
     crushIndex: 1
