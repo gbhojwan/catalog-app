@@ -1815,7 +1815,7 @@
   hName: बादाम कतरी
   tName: Badam Katri
   category: Dry Fruits
-  dispName: Badak Katri
+  dispName: Badam Katri
   qtyOptions:
     - 500 gm
     - 1 Kg
@@ -2844,6 +2844,18 @@
 - name: Kaju Kani
   hName: काजू कानि
   category: Dry Fruits
+  dispName: Kaju Kani
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: Kg
     crushIndex: 3
@@ -3150,16 +3162,35 @@
         otherChargesMultiplier: 0
         billQuantityMultiplier: 5
     - extItem: 5g
+      dispName: Elaichi 5g Regular
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 5
     - extItem: 10g Reg
+      qtyOptions:
+      - 0.5 Kg
+      - 1 Kg
+      - 2 Kg
+      - 3 Kg
+      - 5 Kg
+      - 10 Kg
+      - 15 Kg
+      dispName: Elaichi 10g Regular
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
         billQuantityMultiplier: 5
     - extItem: 10g Bold
+      qtyOptions:
+      - 0.5 Kg
+      - 1 Kg
+      - 2 Kg
+      - 3 Kg
+      - 5 Kg
+      - 10 Kg
+      - 15 Kg
+      dispName: Elaichi 10g Bold
       extP2pUnit:
         unit: Bag
         otherChargesMultiplier: 0
@@ -4203,6 +4234,7 @@
 - name: Jeera 100
   hName: जीरा 100
   category: Masale
+  dispName: Jeera 100g
   qtyOptions:
     - 1 Kg
     - 2 Kg
@@ -5492,6 +5524,16 @@
 - name: Chat 500
   hName: चाट 500
   tName: Chat Masala 500 Sky
+  dispName: Chat Masala Regular 500 Gm ( Sky )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   category: Masale
   unit:
     unit: Kg
@@ -5525,6 +5567,16 @@
   hName: अमचूर 1 Kg
   category: Masale
   tName: Dry Mango Chutney 500gm Sky
+  dispName: Amchoor Powder 1 Kg ( Sky - Regular )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -5762,6 +5814,16 @@
       billQuantityMultiplier: 40
 - name: Sugar Phutane 1Kg
   category: Other
+  dispName: Sakhar Phutane 1 Kg
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 10 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 2
@@ -5889,16 +5951,6 @@
       unit: Bag
       otherChargesMultiplier: 0
       billQuantityMultiplier: 5
-- name: Papad 10
-  category: Other
-  hName: पापड़ 10
-  unit:
-    unit: pkt
-    crushIndex: 4
-    p2pUnit:
-      unit: Box
-      otherChargesMultiplier: 0
-      billQuantityMultiplier: 0
 - name: Tikka Masala
   category: Other
   hName: टिक्का मसाला
@@ -5951,6 +6003,15 @@
 - name: Shev Masala
   category: Masale
   hName: शेव मसाला
+  dispName: Shev Masala ( Rambandhu )
+  qtyOptions:
+    - 1 Kg
+    - 2 Kg
+    - 3 Kg
+    - 4 Kg
+    - 5 Kg
+    - 1 Bag
+    - 2 Bag
   unit:
     unit: Kg
     crushIndex: 1
@@ -6057,6 +6118,15 @@
   category: Other
   hName: चिली सॉस कैन
   tName: Red Chilly 5 Kg
+  dispName: Chilli Sauce Can ( Navkar )
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 3 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: pcs
     crushIndex: 2
@@ -6130,6 +6200,15 @@
 - name: Snacks Sauce Can
   category: Other
   tName: Snacks Sauce Can
+  dispName: Snacks Sauce Can ( Navkar )
+  qtyOptions:
+    - 1 pcs
+    - 2 pcs
+    - 3 pcs
+    - 1 Box
+    - 2 Box
+    - 3 Box
+    - 5 Box
   unit:
     unit: pcs
     crushIndex: 2
@@ -7170,13 +7249,13 @@
       billQuantityMultiplier: 0
     extItems:
     - extItem: Regular
-      dispName: Badia / Star Phool ( Regular )
+      dispName: Badian / Star Phool ( Regular )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
         billQuantityMultiplier: 0
     - extItem: Extra
-      dispName: Badia / Star Phool ( Extra )
+      dispName: Badian / Star Phool ( Extra )
       extP2pUnit:
         unit: Box
         otherChargesMultiplier: 0
@@ -7844,8 +7923,8 @@
         otherChargesMultiplier: 0
         billQuantityMultiplier: 25
     - extItem: Bedaker
-      tName: Bedaker Reday Pickle Mix
-      dispName: Aachar Masala ( Rambandhu )
+      tName: Bedekar Reday Pickle Mix
+      dispName: Aachar Masala ( Bedekar )
       qtyOptions:
         - 1 Kg
         - 2 Kg
